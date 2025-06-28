@@ -33,9 +33,10 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          Understanding Your Vision – We begin by discussing
-                          your needs, style preferences, and space requirements
-                          to recommend the best materials and solutions.
+                          We start with you. Your style, your space, your goals.
+                          At Glorian Wood, we listen first, then guide you to
+                          the perfect materials that match your vision and bring
+                          your space to life.
                         </div>
                       </div>
                     </div>
@@ -58,10 +59,12 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          Choosing the Perfect Fit – Explore our wide range of
-                          plywood, laminates, veneers, modular fittings, and
-                          smart security solutions to match your aesthetic and
-                          functional needs.
+                          Design isn’t about following trends, it’s about
+                          choosing what feels like you. At Glorian Wood, we make
+                          that easier with a curated range of plywood,
+                          laminates, veneers, modular fittings, and smart
+                          solutions that blend seamlessly with your lifestyle
+                          and space.
                         </div>
                       </div>
                     </div>
@@ -85,9 +88,10 @@ function Process() {
                     >
                       <div className="accordion-body">
                         <div className="text">
-                          Bringing Your Vision to Life – Once finalized, we
-                          ensure on-time delivery of materials and offer expert
-                          guidance for seamless installation and execution.
+                          Once your choices are made, we handle the rest, with
+                          on-time delivery, expert support, and guidance every
+                          step of the way to ensure your space comes to life
+                          exactly as imagined.
                         </div>
                       </div>
                     </div>

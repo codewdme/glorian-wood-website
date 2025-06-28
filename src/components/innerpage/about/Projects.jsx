@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="products" className="tc-projects-style2">
+    <section id="services" className="tc-projects-style2">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-8">

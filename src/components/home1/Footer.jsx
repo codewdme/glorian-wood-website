@@ -1,4 +1,5 @@
 import React from "react";
+import { scrollToSection } from "../helper";
 
 function Footer() {
   return (
@@ -9,12 +10,12 @@ function Footer() {
             <div className="col-lg-4">
               <div className="info-side">
                 <div className="text fsz-24 color-333 lh-3 fw-600">
-                  Glorian Wood is a trusted provider of premium plywood,
-                  laminates, veneers, modular kitchen fittings, and
-                  architectural hardware. We offer high-quality materials and
-                  expert solutions for homeowners, interior designers, and
-                  builders. Elevate your spaces with durability, style, and
-                  innovation.
+                  Glorian Wood offers thoughtfully crafted materials that bring
+                  design, durability, and functionality together. From premium
+                  plywood, decorative laminates, and natural veneers to modular
+                  kitchen fittings and architectural hardware, we provide
+                  high-quality solutions tailored for homeowners, interior
+                  designers, and builders alike.
                 </div>
                 <div className="foot-social mt-50">
                   {/* <a href="https://glorianwood.com/contact-us/#">
@@ -68,13 +69,21 @@ function Footer() {
                     <a href="/"> Home </a>
                   </li>
                   <li>
-                    <a href="/about-us"> About Us </a>
+                    <a
+                      href="/#about-section-anchor"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        scrollToSection("#services-section-anchor");
+                      }}
+                    >
+                      About Us
+                    </a>
                   </li>
                   <li>
-                    <a href="/services"> Services </a>
+                    <a href="/#services"> Services </a>
                   </li>
                   <li>
-                    <a href="/contact"> Contact </a>
+                    <a href="/#contact"> Contact </a>
                   </li>
                 </ul>
               </div>

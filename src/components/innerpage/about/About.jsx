@@ -35,19 +35,24 @@ function About() {
           <div className="col-lg-5">
             <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
               <div className="text fsz-25 fw-500 mb-20">
-                At Glorian Wood, we redefine interiors with premium-quality
-                plywood, laminates, veneers, modular kitchen fittings, and
-                architectural hardware. With a commitment to craftsmanship,
-                innovation, and durability, we bring your vision to life with
-                materials that blend aesthetics with functionality.
+                At Glorian Wood, we believe great spaces begin with great
+                materials, the kind that combine beauty, strength, and purpose.
+                For over 29 years, we’ve been helping people transform houses
+                into homes and blueprints into bold, timeless interiors. From
+                premium plywood, sleek laminates, and elegant veneers to modular
+                kitchen fittings and architectural hardware, every product is
+                thoughtfully selected to elevate your space, inside and out.
               </div>
               <div className="text fsz-25 fw-500 mb-20">
-                From luxurious home interiors to high-end commercial spaces, our
-                products cater to homeowners, interior designers, and architects
-                who seek excellence. Whether you’re looking for elegant
-                decorative panels, smart digital locks, or turnkey interior
-                solutions through GW Infratech, we have everything to create
-                timeless and sophisticated spaces.
+                Whether you're a homeowner chasing that perfect finish, a
+                designer crafting your next masterpiece, or an architect
+                building something iconic, We’re here to support your vision
+                with materials that deliver on design, durability, and detail.
+                And when it comes to complete interior execution, our in-house
+                team at GW Infratech brings it all together - smart, seamless,
+                and stunning. At Glorian, it's not just about surfaces. It's
+                about helping you build spaces that feel like you. Bold,
+                refined, and built to last.
               </div>
             </div>
           </div>

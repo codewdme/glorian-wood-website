@@ -20,10 +20,10 @@ function Testimonials() {
                   <div className="swiper-slide">
                     <div className="clients-card">
                       <div className="text fsz-45 fw-600 lh-2 js-splittext-lines text-black">
-                        “The entire team tactfully delivered a project of
-                        exceptional quality while staying on schedule and under
-                        budget. More than what i&apos;m expected. I’m really
-                        satisfied and recommended!.”
+                        This place has ready stock with reasonable prices. Staff
+                        is helpful and knowledgeable. Nearly always get what I
+                        came in for here. Look no further for your hardware
+                        needs.
                       </div>
                       <div className="author">
                         <div className="au-img">
@@ -35,10 +35,10 @@ function Testimonials() {
                         </div>
                         <div className="au-inf">
                           <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                            M. Salah
+                            Rahul Mehra
                           </h6>
                           <p className="text-capitalize fsz-14 color-666">
-                            Dash Private Villa Project Investor
+                            Architect
                           </p>
                         </div>
                       </div>
@@ -47,10 +47,10 @@ function Testimonials() {
                   <div className="swiper-slide">
                     <div className="clients-card">
                       <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
-                        “The entire team tactfully delivered a project of
-                        exceptional quality while staying on schedule and under
-                        budget. More than what i&apos;m expected. I’m really
-                        satisfied and recommended!.”
+                        “Best Plywood shop in Vaishali Nagar, Good and well
+                        behaved staff. Owner was also very supportive. They say
+                        rates are not the concern for them. They just want to
+                        work.”
                       </div>
                       <div className="author">
                         <div className="au-img">
@@ -62,10 +62,10 @@ function Testimonials() {
                         </div>
                         <div className="au-inf">
                           <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                            M. Salah
+                            Monika Prajapat
                           </h6>
                           <p className="text-capitalize fsz-14 color-666">
-                            Dash Private Villa Project Investor
+                            IT Professional
                           </p>
                         </div>
                       </div>
@@ -74,10 +74,9 @@ function Testimonials() {
                   <div className="swiper-slide">
                     <div className="clients-card">
                       <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
-                        “The entire team tactfully delivered a project of
-                        exceptional quality while staying on schedule and under
-                        budget. More than what i&apos;m expected. I’m really
-                        satisfied and recommended!.”
+                        “This shop has the best plywood available in competition
+                        jaipur. After searching in the entire jaipur, this is
+                        the best plywood shop.”
                       </div>
                       <div className="author">
                         <div className="au-img">
@@ -89,10 +88,10 @@ function Testimonials() {
                         </div>
                         <div className="au-inf">
                           <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                            M. Salah
+                            Prakashi Pareek
                           </h6>
                           <p className="text-capitalize fsz-14 color-666">
-                            Dash Private Villa Project Investor
+                            Home Owner
                           </p>
                         </div>
                       </div>
@@ -112,13 +111,13 @@ function Testimonials() {
       <div className="marq-slider">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
-            <a href="#"> Creative </a>
+            <a href="#"> Plywood </a>
           </div>
           <div className="swiper-slide">
-            <a href="#"> Flexiable </a>
+            <a href="#"> Laminates </a>
           </div>
           <div className="swiper-slide">
-            <a href="#"> Dedicated </a>
+            <a href="#"> Veneers </a>
           </div>
         </div>
       </div>

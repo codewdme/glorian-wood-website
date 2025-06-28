@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Team() {
   return (
@@ -20,8 +20,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
                 <a
@@ -37,8 +37,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
               </div>
@@ -58,8 +58,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
               </div>
@@ -79,8 +79,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
                 <a
@@ -96,8 +96,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
               </div>
@@ -117,8 +117,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
                 <a
@@ -128,18 +128,18 @@ function Team() {
                 >
                   <div className="img">
                     <h5 className="title">
-                      {' '}
+                      {" "}
                       <div className="con">
-                        {' '}
+                        {" "}
                         <span>
-                          {' '}
-                          See All Our <br /> Member{' '}
-                        </span>{' '}
+                          {" "}
+                          See All Our <br /> Member{" "}
+                        </span>{" "}
                         <span className="arrow">
-                          {' '}
-                          <i className="ti-arrow-top-right"></i>{' '}
-                        </span>{' '}
-                      </div>{' '}
+                          {" "}
+                          <i className="ti-arrow-top-right"></i>{" "}
+                        </span>{" "}
+                      </div>{" "}
                     </h5>
                   </div>
                 </a>
@@ -160,8 +160,8 @@ function Team() {
                     />
                   </div>
                   <h5 className="title">
-                    {' '}
-                    jhon <br /> handerson{' '}
+                    {" "}
+                    jhon <br /> handerson{" "}
                   </h5>
                 </a>
               </div>
@@ -174,8 +174,8 @@ function Team() {
               <div className="number-card wow fadeInUp" data-wow-delay="0.2s">
                 <h3 className="perc"> 95% </h3>
                 <p>
-                  {' '}
-                  Happy Customer and <br /> Repeating{' '}
+                  {" "}
+                  Happy Customer and <br /> Repeating{" "}
                 </p>
               </div>
             </div>
@@ -183,8 +183,8 @@ function Team() {
               <div className="number-card wow fadeInUp" data-wow-delay="0.4s">
                 <h3 className="perc"> 126 </h3>
                 <p>
-                  {' '}
-                  Projects Completed in <br /> 15 Years{' '}
+                  {" "}
+                  Projects Completed in <br /> 15 Years{" "}
                 </p>
               </div>
             </div>
@@ -192,8 +192,8 @@ function Team() {
               <div className="number-card wow fadeInUp" data-wow-delay="0.6s">
                 <h3 className="perc"> 25 </h3>
                 <p>
-                  {' '}
-                  Architects and <br /> High Qualified Crafters{' '}
+                  {" "}
+                  Architects and <br /> High Qualified Crafters{" "}
                 </p>
               </div>
             </div>

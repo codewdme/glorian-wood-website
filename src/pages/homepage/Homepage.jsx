@@ -10,6 +10,8 @@ import Chat from "../../components/home1/Chat";
 import Footer from "../../components/home1/Footer";
 import { Helmet } from "react-helmet";
 import AboutPage from "./about-us";
+import ServicePage from "./services";
+import ProcessPage from "./process";
 
 function Home1() {
   return (
@@ -29,17 +31,20 @@ function Home1() {
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
           <Header />
-          <main>
-            <div id="about">
-              <AboutPage />
-            </div>
+          <div id="about-us">
+            <AboutPage />
+
+            <ProcessPage />
+
+            <ServicePage />
 
             {/* <Services /> */}
             {/* <Experience /> */}
             <Testimonials />
             {/* <Team /> */}
+
             <Chat />
-          </main>
+          </div>
           <Footer />
         </div>
       </body>

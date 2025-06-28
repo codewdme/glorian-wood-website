@@ -1,17 +1,17 @@
 import React from "react";
-import Loader from "../../components/common/Loader";
+// import Loader from "../../components/common/Loader";
 
-import About from "../../components/innerpage/about/About";
-// import Process from "../../components/innerpage/about/Process";
+// import About from "../../components/innerpage/about/About";
+import Process from "../../components/innerpage/about/Process";
 // import Projects from "../../components/innerpage/about/Projects";
 // import Awards from "../../components/innerpage/about/Awards";
 
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
-function AboutPage() {
+function ProcessPage() {
   return (
-    <div>
-      <Helmet>
+    <>
+      {/* <Helmet>
         <link
           rel="stylesheet"
           type="text/css"
@@ -19,23 +19,23 @@ function AboutPage() {
         />
         <script src="/common/assets/js/common_js.js"></script>
         <script src="/innerpages/assets/js/innerpages.js"></script>
-      </Helmet>
+      </Helmet> */}
       <div className="inner-pages-style1 about-pg-style1">
-        <Loader />
+        {/* <Loader /> */}
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
-          <div id="about-section-anchor">
-            <About />
-            {/* <Process /> */}
+          <main>
+            {/* <About /> */}
+            <Process />
 
             {/* <Projects /> */}
 
             {/* <Awards /> */}
-          </div>
+          </main>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
-export default AboutPage;
+export default ProcessPage;
