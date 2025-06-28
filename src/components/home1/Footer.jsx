@@ -91,10 +91,16 @@ function Footer() {
                 <h5 className="mb-20 mt-5 fw-600"> QUICK LINKS </h5>
                 <ul className="footer-links">
                   <li>
-                    <a href="/terms-and-conditions"> Term & Conditions </a>
+                    <a href="https://digital-fry.s3.us-east-1.amazonaws.com/glorian-wood/Glorian_Wood_Terms+%26+Conditions.pdf">
+                      {" "}
+                      Term & Conditions{" "}
+                    </a>
                   </li>
                   <li>
-                    <a href="/privacy-policy"> Privacy Policy </a>
+                    <a href="https://digital-fry.s3.us-east-1.amazonaws.com/glorian-wood/Glorian_Wood_Privacy_Policy.pdf">
+                      {" "}
+                      Privacy Policy{" "}
+                    </a>
                   </li>
                 </ul>
               </div>

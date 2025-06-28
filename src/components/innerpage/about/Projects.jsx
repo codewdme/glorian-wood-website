@@ -54,29 +54,29 @@ function Projects() {
                 className="nav-link"
                 id="pills-proj3-tab"
                 data-bs-toggle="pill"
-                data-bs-target="#pills-proj1"
+                data-bs-target="#pills-proj3"
                 type="button"
               >
                 Modular Solutions
               </button>
             </li>
-            {/* <li className="nav-item" role="presentation">
-              <button
-                className="nav-link"
-                id="pills-proj4-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#pills-proj2"
-                type="button"
-              >
-                Architectural Hardware
-              </button>
-            </li> */}
             <li className="nav-item" role="presentation">
               <button
                 className="nav-link"
                 id="pills-proj4-tab"
                 data-bs-toggle="pill"
-                data-bs-target="#pills-proj2"
+                data-bs-target="#pills-proj4"
+                type="button"
+              >
+                Wallpapers
+              </button>
+            </li>
+            <li className="nav-item" role="presentation">
+              <button
+                className="nav-link"
+                id="pills-proj5-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-proj5"
                 type="button"
               >
                 Smart Digital Locks
@@ -952,9 +952,9 @@ function Projects() {
         {/* Modular Solutions start */}
         <div
           className="tab-pane fade"
-          id="pills-proj2"
+          id="pills-proj3"
           role="tabpanel"
-          aria-labelledby="pills-proj2-tab"
+          aria-labelledby="pills-proj3-tab"
         >
           <div className="projects-slider-content mt-100">
             <div className="projects-slider">
@@ -965,7 +965,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/products/decorative-panels/11.jpg"
+                        src="/innerpages/assets/img/products/modular-solutions/tendums.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -983,7 +983,7 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panel </a>
+                        <a href="#">Modular Solutions </a>
                       </div>
                       {/* <h3 className="title">
                         <a href="#"> Louvers & Fluted Panels </a>
@@ -996,7 +996,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/products/decorative-panels/12.jpg"
+                        src="/innerpages/assets/img/products/modular-solutions/kitchen-pantry.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -1014,7 +1014,7 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panel </a>
+                        <a href="#">Modular Solutions </a>
                       </div>
                       {/* <h3 className="title">
                         <a href="#"> Louvers & Fluted Panels </a>
@@ -1027,7 +1027,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/products/decorative-panels/13.jpg"
+                        src="/innerpages/assets/img/products/modular-solutions/wardrobe-multi-rotation-shoe-rack.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -1045,7 +1045,7 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panel </a>
+                        <a href="#">Modular Solutions </a>
                       </div>
                       {/* <h3 className="title">
                         <a href="#"> Louvers & Fluted Panels </a>
@@ -1058,7 +1058,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/products/decorative-panels/14.jpg"
+                        src="/innerpages/assets/img/products/modular-solutions/wardrobe-pull-down-cloth-hanger.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -1076,7 +1076,7 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panel </a>
+                        <a href="#">Modular Solutions </a>
                       </div>
                       {/* <h3 className="title">
                         <a href="#"> Louvers & Fluted Panels </a>
@@ -1089,7 +1089,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/products/decorative-panels/15.jpg"
+                        src="/innerpages/assets/img/products/modular-solutions/kitchen-tall-units.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -1107,7 +1107,266 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panel </a>
+                        <a href="#">Modular Solutions </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="controls">
+                <div className="container">
+                  <div className="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Modular Solutions end */}
+        {/* Wallpapers start */}
+        <div
+          className="tab-pane fade"
+          id="pills-proj4"
+          role="tabpanel"
+          aria-labelledby="pills-proj4-tab"
+        >
+          <div className="projects-slider-content mt-100">
+            <div className="projects-slider">
+              <div className="swiper-wrapper">
+                {/* Wallpapers*/}
+                {/* 1st wallpaper */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/wallpapers/01.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Wallpaper </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd wallpaper */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/wallpapers/02.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Wallpaper </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="controls">
+                <div className="container">
+                  <div className="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Modular Solutions end */}
+        {/* Locks Start*/}
+        <div
+          className="tab-pane fade"
+          id="pills-proj5"
+          role="tabpanel"
+          aria-labelledby="pills-proj5-tab"
+        >
+          <div className="projects-slider-content mt-100">
+            <div className="projects-slider">
+              <div className="swiper-wrapper">
+                {/* Locks*/}
+                {/* 1st Lock*/}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/locks/01.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Lock </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd Lock*/}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/locks/02.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Lock </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd Lock*/}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/locks/03.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Lock </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 4th Lock*/}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/locks/04.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Lock </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 5th Lock*/}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/locks/05.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#">Lock </a>
                       </div>
                       {/* <h3 className="title">
                         <a href="#"> Louvers & Fluted Panels </a>
