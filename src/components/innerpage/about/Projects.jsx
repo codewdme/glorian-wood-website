@@ -46,7 +46,7 @@ function Projects() {
                 data-bs-target="#pills-proj2"
                 type="button"
               >
-                Decorative Panels
+                Decorative Panels and laminates
               </button>
             </li>
             <li className="nav-item" role="presentation">
@@ -57,10 +57,10 @@ function Projects() {
                 data-bs-target="#pills-proj1"
                 type="button"
               >
-                Modular Kitchen Solutions
+                Modular Solutions
               </button>
             </li>
-            <li className="nav-item" role="presentation">
+            {/* <li className="nav-item" role="presentation">
               <button
                 className="nav-link"
                 id="pills-proj4-tab"
@@ -70,7 +70,7 @@ function Projects() {
               >
                 Architectural Hardware
               </button>
-            </li>
+            </li> */}
             <li className="nav-item" role="presentation">
               <button
                 className="nav-link"
@@ -96,8 +96,9 @@ function Projects() {
           </ul>
         </div>
       </div>
-      {/* plywood and veneers start */}
+
       <div className="tab-content" id="pills-tabContent">
+        {/* plywood and veneers start */}
         <div
           className="tab-pane fade show active"
           id="pills-proj1"
@@ -107,12 +108,13 @@ function Projects() {
           <div className="projects-slider-content mt-100">
             <div className="projects-slider">
               <div className="swiper-wrapper">
+                {/* Plywood */}
                 {/* 1st */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/plywood/10.jpg"
+                        src="/innerpages/assets/img/products/plywood/10.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -144,7 +146,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/plywood/11.jpg"
+                        src="/innerpages/assets/img/products/plywood/11.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -175,7 +177,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/plywood/12.jpg"
+                        src="/innerpages/assets/img/products/plywood/12.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -206,7 +208,7 @@ function Projects() {
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/plywood/13.jpg"
+                        src="/innerpages/assets/img/products/plywood/13.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -232,6 +234,224 @@ function Projects() {
                     </div>
                   </div>
                 </div>
+                {/* veneers */}
+                {/* 1st */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/16.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/17.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/18.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 4th */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/19.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 5th */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/20.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 6th */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/21.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 7th */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/veneer/22.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Veneer </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Fire-Retardant (FR) Plywood </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="controls">
                 <div className="container">
@@ -242,7 +462,7 @@ function Projects() {
           </div>
         </div>
         {/* plywood and veneers end */}
-
+        {/* decorative-panels-and-laminates start */}
         <div
           className="tab-pane fade"
           id="pills-proj2"
@@ -252,11 +472,13 @@ function Projects() {
           <div className="projects-slider-content mt-100">
             <div className="projects-slider">
               <div className="swiper-wrapper">
+                {/* decorative panels */}
+                {/* 1st decorative-panel */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj3.jpg"
+                        src="/innerpages/assets/img/products/decorative-panels/11.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -274,19 +496,20 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panels </a>
+                        <a href="#"> Decorative Panel </a>
                       </div>
-                      <h3 className="title">
+                      {/* <h3 className="title">
                         <a href="#"> Louvers & Fluted Panels </a>
-                      </h3>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
+                {/* 2nd decorative-panel */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj4.jpg"
+                        src="/innerpages/assets/img/products/decorative-panels/12.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -304,19 +527,20 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panels </a>
+                        <a href="#"> Decorative Panel </a>
                       </div>
-                      <h3 className="title">
-                        <a href="#"> 3D & Textured Panels </a>
-                      </h3>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
+                {/* 3rd decorative-panel */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj1.jpg"
+                        src="/innerpages/assets/img/products/decorative-panels/13.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -334,19 +558,20 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panels </a>
+                        <a href="#"> Decorative Panel </a>
                       </div>
-                      <h3 className="title">
-                        <a href="#"> High-Pressure Laminates (HPL) </a>
-                      </h3>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
+                {/* 4th decorative-panel */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj2.jpg"
+                        src="/innerpages/assets/img/products/decorative-panels/14.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -364,11 +589,529 @@ function Projects() {
                     </a>
                     <div className="info">
                       <div className="tags">
-                        <a href="#"> Decorative Panels </a>
+                        <a href="#"> Decorative Panel </a>
                       </div>
-                      <h3 className="title">
-                        <a href="#"> UV Marble & Ripple Panels</a>
-                      </h3>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 5th decorative-panel */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/decorative-panels/15.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Decorative Panel </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* laminates */}
+                {/* 1st laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/01.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/02.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/03.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 4th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/04.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 5th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/05.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 6th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/06.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 7th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/07.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 8th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/08.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 9th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/09.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 10th laminate */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/laminates/10.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Laminate </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="controls">
+                <div className="container">
+                  <div className="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* decorative-panels-and-laminates end */}
+        {/* Modular Solutions start */}
+        <div
+          className="tab-pane fade"
+          id="pills-proj2"
+          role="tabpanel"
+          aria-labelledby="pills-proj2-tab"
+        >
+          <div className="projects-slider-content mt-100">
+            <div className="projects-slider">
+              <div className="swiper-wrapper">
+                {/* Modular Solutions*/}
+                {/* 1st modular solution */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/decorative-panels/11.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Decorative Panel </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd modular solution */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/decorative-panels/12.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Decorative Panel </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd modular solution */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/decorative-panels/13.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Decorative Panel </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 4th modular solution */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/decorative-panels/14.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Decorative Panel </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
+                    </div>
+                  </div>
+                </div>
+                {/* 5th modular solution */}
+                <div className="swiper-slide">
+                  <div className="project-card">
+                    <a href="#" className="img">
+                      <img
+                        src="/innerpages/assets/img/products/decorative-panels/15.jpg"
+                        alt=""
+                        className="img-cover"
+                      />
+                      <div className="year">
+                        <span className="txt"> GW </span>
+                        <img
+                          src="/innerpages/assets/img/project_shape.png"
+                          alt=""
+                          className="bg"
+                        />
+                      </div>
+                      {/* <div className="arrow">
+                        <i className="fal fa-long-arrow-right ico-45"></i>
+                      </div> */}
+                    </a>
+                    <div className="info">
+                      <div className="tags">
+                        <a href="#"> Decorative Panel </a>
+                      </div>
+                      {/* <h3 className="title">
+                        <a href="#"> Louvers & Fluted Panels </a>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
