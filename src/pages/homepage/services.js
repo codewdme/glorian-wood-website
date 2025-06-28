@@ -1,12 +1,12 @@
 import React from "react";
-import Loader from "../../components/common/Loader";
+// import Loader from "../../components/common/Loader";
 
-import About from "../../components/innerpage/about/About";
-import Process from "../../components/innerpage/about/Process";
+// import About from "../../components/innerpage/about/About";
+// import Process from "../../components/innerpage/about/Process";
 import Projects from "../../components/innerpage/about/Projects";
-import Awards from "../../components/innerpage/about/Awards";
+// import Awards from "../../components/innerpage/about/Awards";
 
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 function ServicePage() {
   return (
@@ -30,7 +30,7 @@ function ServicePage() {
 
             <Projects />
 
-            <Awards />
+            {/* <Awards /> */}
           </main>
         </div>
       </div>

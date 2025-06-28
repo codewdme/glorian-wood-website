@@ -96,6 +96,7 @@ function Projects() {
           </ul>
         </div>
       </div>
+      {/* plywood and veneers start */}
       <div className="tab-content" id="pills-tabContent">
         <div
           className="tab-pane fade show active"
@@ -106,11 +107,12 @@ function Projects() {
           <div className="projects-slider-content mt-100">
             <div className="projects-slider">
               <div className="swiper-wrapper">
+                {/* 1st */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj1.jpg"
+                        src="/innerpages/assets/img/plywood/10.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -131,17 +133,18 @@ function Projects() {
                         <a href="#"> Plywood </a>
                         {/* <a href="#"> Veneers </a> */}
                       </div>
-                      <h3 className="title">
+                      {/* <h3 className="title">
                         <a href="#"> Marine Plywood </a>
-                      </h3>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
+                {/* 2nd */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj2.jpg"
+                        src="/innerpages/assets/img/plywood/11.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -161,17 +164,18 @@ function Projects() {
                       <div className="tags">
                         <a href="#"> Plywood </a>
                       </div>
-                      <h3 className="title">
+                      {/* <h3 className="title">
                         <a href="#"> Moisture-Resistant (MR) Plywood </a>
-                      </h3>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
+                {/* 3rd */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj3.jpg"
+                        src="/innerpages/assets/img/plywood/12.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -191,17 +195,18 @@ function Projects() {
                       <div className="tags">
                         <a href="#"> Plywood </a>
                       </div>
-                      <h3 className="title">
+                      {/* <h3 className="title">
                         <a href="#"> Commercial Plywood </a>
-                      </h3>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
+                {/* 4th */}
                 <div className="swiper-slide">
                   <div className="project-card">
                     <a href="#" className="img">
                       <img
-                        src="/innerpages/assets/img/projects/proj4.jpg"
+                        src="/innerpages/assets/img/plywood/13.jpg"
                         alt=""
                         className="img-cover"
                       />
@@ -221,9 +226,9 @@ function Projects() {
                       <div className="tags">
                         <a href="#"> Plywood </a>
                       </div>
-                      <h3 className="title">
+                      {/* <h3 className="title">
                         <a href="#"> Fire-Retardant (FR) Plywood </a>
-                      </h3>
+                      </h3> */}
                     </div>
                   </div>
                 </div>
@@ -236,6 +241,8 @@ function Projects() {
             </div>
           </div>
         </div>
+        {/* plywood and veneers end */}
+
         <div
           className="tab-pane fade"
           id="pills-proj2"
