@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-style1 section-padding-x">
       <div className="container-fluid content">
         <a className="navbar-brand" href="#">
-          <img src="/deployed/logo/logo.png" alt="" className="logo" />
+          <img src="/deployed/logo/logo-white.png" alt="" className="logo" />
         </a>
         <button
           className="navbar-toggler"

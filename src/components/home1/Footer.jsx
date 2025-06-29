@@ -21,10 +21,10 @@ function Footer() {
                   {/* <a href="https://glorianwood.com/contact-us/#">
                     <i className="fab fa-facebook-f"></i>
                   </a> */}
-                  <a href="https://g.co/kgs/ayBVZoc">
-                    <i className="fab fa-google"></i>
+                  <a href="https://www.facebook.com/profile.php?id=61577704111928">
+                    <i className="fab fa-facebook"></i>
                   </a>
-                  <a href="https://www.instagram.com/glorian.wood/">
+                  <a href="https://www.instagram.com/glorianwood?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <i className="fab fa-instagram"></i>
                   </a>
                   {/* <a href="#">
@@ -110,7 +110,9 @@ function Footer() {
         <div className="foot">
           <div className="row">
             <div className="col-lg-6">
-              <p className="fsz-13">© 2025 Glorian Wood | All Right Reserved</p>
+              <p className="fsz-13">
+                ©️ 2025 Glorian Wood | Brickstone | All Rights Reserved
+              </p>
             </div>
           </div>
         </div>
