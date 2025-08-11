@@ -31,20 +31,19 @@ function Home1() {
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
           <Header />
+          <div id="products-services" />
+          <ServicePage />
+          <ProcessPage />
           <div id="about-us">
             <AboutPage />
-
-            <ProcessPage />
-
-            <ServicePage />
-
-            {/* <Services /> */}
-            {/* <Experience /> */}
-            <Testimonials />
-            {/* <Team /> */}
-
-            <Chat />
           </div>
+
+          {/* <Services /> */}
+          {/* <Experience /> */}
+          <Testimonials />
+          {/* <Team /> */}
+          <div id="contact-us" />
+          <Chat />
           <Footer />
         </div>
       </body>

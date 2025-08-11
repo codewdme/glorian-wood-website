@@ -1,6 +1,17 @@
-import React from "react";
+import { useState } from "react";
 
 function Projects() {
+  const [activeTab, setActiveTab] = useState("pills-proj1");
+  const [subcategories, setSubcategories] = useState([]);
+  const getSubcategories = (tabId) => {
+    // Implement your logic to get subcategories based on tabId
+    // This is a placeholder function
+    return [];
+  };
+  const handleTabClick = (tabId) => {
+    setActiveTab(tabId);
+    setSubcategories(getSubcategories(tabId));
+  };
   return (
     <section id="services" className="tc-projects-style2">
       <div className="container">
